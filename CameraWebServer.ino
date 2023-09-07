@@ -75,7 +75,7 @@ void setup() {
     return;
   }
 
-// behebt Problem
+// Behebt Problem
   sensor_t * s = esp_camera_sensor_get();
   // initial sensors are flipped vertically and colors are a bit saturated
   if (s->id.PID == OV3660_PID) {
